@@ -1,7 +1,9 @@
 # GLaDOS-CheckIn
 
 GLaDOS 自动签到与提示 —— 基于Github Action与Telegram Bot  
-部分代码参考Repo：https://github.com/xiaomustudent/glados-checkin  
+
+所有的套餐数据存放在budget.json中，若有不符请根据原始数据修改  
+套餐数据来自于：/static/js/Console/pages/Checkin.js，在网页控制台Sources面板查看
 
 注：仅支持单个账号，不保证签到一定成功
 
@@ -11,7 +13,26 @@ GLaDOS 自动签到与提示 —— 基于Github Action与Telegram Bot
 ```
 HB062-QS7DL-5R0XC-M2EA4
 ```
-注：只有通过 https://github.com/glados-network/GLaDOS 进入GLaDOS才能填写邀请码
+网站地址：  
+[GLaDOS Github](https://github.com/glados-network/GLaDOS)  
+[GLaDOS Best](https://glados.best/) 
+
+[GLaDOS.rock](https://glados.rock/)  
+[GLaDOS.one](https://glados.one/)
+
+---
+
+## 输出示例
+```
+--------------------
+GLaDOS CheckIn
+Msg: Checkin! Get 1 Day
+Plan: Pro Plan
+Left days: 23
+Usage: 23.333GB
+Total: 500GB
+--------------------
+```
 
 ---
 
@@ -30,12 +51,16 @@ HB062-QS7DL-5R0XC-M2EA4
 |COOKIES|签到Cookies|
 |BOT_TOKEN|Telegram Bot Token|
 |CHAT_ID|Telegram Bot Chat Id|
-
+  
+注：若是只想本地输出，设置LOCAL_OUTPUT变量为False后可不填写BOT_TOKEN和CHAT_ID
+  
 ### COOKIES
 1. 打开签到网页
 2. 打开网页控制台
 3. 点击【签到】
-4. 获取Network中对checkin的Request Header中的cookie中的所有内容
+4. 获取Network中对checkin的Request Header中的cookie中的所有内容  
+
+注：其他已登录的网页的cookies也是可以的
   
 示例：_ga=GA1.2.XXX; _gid=XXX;XXX _gat_gtag_UA_104464600_2=1
   
