@@ -42,7 +42,8 @@ Total: 500GB
 3. 启用Action中的Workflow
 4. 进行任意Push/Pull request以触发Action
 
-注：执行一次Action以后会自动每日签到
+注1：执行一次Action以后会自动每日签到  
+注2：长时间不进行任何操作可能导致Action停止自动运行
 
 ## 环境变量：
 
