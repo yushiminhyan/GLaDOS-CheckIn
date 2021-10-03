@@ -53,7 +53,7 @@ Total: 500GB
 |BOT_TOKEN|Telegram Bot Token|
 |CHAT_ID|Telegram Bot Chat Id|
   
-注：若是只想本地输出，设置LOCAL_OUTPUT变量为False后可不填写BOT_TOKEN和CHAT_ID
+注：若是只想本地输出，设置main.py中的LOCAL_OUTPUT变量为True后可不填写BOT_TOKEN和CHAT_ID
   
 ### COOKIES
 1. 打开签到网页
