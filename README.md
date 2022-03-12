@@ -1,6 +1,7 @@
 # GLaDOS-CheckIn
 
 GLaDOS 自动签到与提示 —— 基于Github Action与Telegram Bot  
+注：简单修改后也适用于云函数  
 
 所有的套餐数据存放在budget.json中，若有不符请根据原始数据修改  
 套餐数据来自于：/static/js/Console/pages/Checkin.js，在网页控制台Sources面板查看
@@ -13,12 +14,13 @@ GLaDOS 自动签到与提示 —— 基于Github Action与Telegram Bot
 ```
 HB062-QS7DL-5R0XC-M2EA4
 ```
+
 网站地址：  
 [GLaDOS Github](https://github.com/glados-network/GLaDOS)  
 [GLaDOS Best](https://glados.best/) 
 
-[GLaDOS.rock](https://glados.rock/)  
 [GLaDOS.one](https://glados.one/)
+[GLaDOS.network](https://glados.network/)
 
 ---
 
@@ -47,13 +49,11 @@ Total: 500GB
 
 ## 环境变量：
 
-| 命名 | 解释 |
-| --- | --- |
-|COOKIES|签到Cookies|
-|BOT_TOKEN|Telegram Bot Token|
-|CHAT_ID|Telegram Bot Chat Id|
-  
-注：若是只想本地输出，设置main.py中的LOCAL_OUTPUT变量为True后可不填写BOT_TOKEN和CHAT_ID
+| 命名      | 解释                 |
+| --------- | -------------------- |
+| COOKIES   | 签到Cookies          |
+| BOT_TOKEN | Telegram Bot Token   |
+| CHAT_ID   | Telegram Bot Chat Id |
   
 ### COOKIES
 1. 打开签到网页
