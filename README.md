@@ -19,8 +19,8 @@ HB062-QS7DL-5R0XC-M2EA4
 [GLaDOS Github](https://github.com/glados-network/GLaDOS)  
 [GLaDOS Best](https://glados.best/) 
 
-[GLaDOS.one](https://glados.one/)
-[GLaDOS.network](https://glados.network/)
+[GLaDOS.one](https://glados.one/)  
+[GLaDOS.network](https://glados.network/)  
 
 ---
 
