@@ -68,7 +68,7 @@ class GLaDOS_CheckIn:
         check_in_url = f"{self._ORIGIN_URL}/api/user/checkin"
         referer_url = f"{self._ORIGIN_URL}/console/checkin"
 
-        payload = {'token': 'glados_network'}
+        payload = {'token': 'glados.network'}
 
         with requests.post(
                 check_in_url,
