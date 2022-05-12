@@ -75,12 +75,12 @@ Total: 500GB
 ### CHAT_ID
 1. 搜索并添加刚才创建的Telegram Bot
 2. 向自己Telegram Bot发送一条简单的信息（不是命令）
-3. 在浏览器中打开以下地址，并把<Telegram Bot Token>替换为自己机器人的Token
+3. 在浏览器中打开以下地址，并把\<Telegram Bot Token\>替换为自己机器人的Token
 ```
 https://api.telegram.org/bot<Telegram Bot Token>/getUpdates
 ```
 4. 根据自己发送的信息，获取返回JSON的 result\[0\].message.chat.id，即为CHAT_ID
-5. (可选) 在浏览器中打开以下地址进行CHAT_ID测试，并把<Telegram Bot Token>替换为自己机器人的Token，<Telegram Chat Id>替换为CHAT_ID
+5. (可选) 在浏览器中打开以下地址进行CHAT_ID测试，并把\<Telegram Bot Token\>替换为自己机器人的Token，\<Telegram Chat Id\>替换为CHAT_ID
 ```
 https://api.telegram.org/bot<Telegram Bot Token>/sendMessage?chat_id=<Telegram Chat Id>&text=Test Message
 ```
