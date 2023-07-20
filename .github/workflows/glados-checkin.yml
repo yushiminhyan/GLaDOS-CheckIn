@@ -29,6 +29,6 @@ jobs:
         run: |
           python3 main.py
         env:
-          COOKIES: ${{ secrets.COOKIES }}
-          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-          CHAT_ID: ${{ secrets.CHAT_ID }}
+          COOKIES: ${{ secret.COOKIES }}
+          BOT_TOKEN: ${{ secret.BOT_TOKEN }}
+          CHAT_ID: ${{ secret.CHAT_ID }}
